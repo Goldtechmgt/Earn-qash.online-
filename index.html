@@ -287,49 +287,26 @@ body{
   }
 
   .hero{
-    padding:18px;
-  }
 @media(max-width:900px){
 
+  /* HIDE SIDEBAR */
+
   .sidebar{
-    width:78px;
-    padding:12px 8px;
+    position:fixed;
+    left:-100%;
+    transition:0.3s;
+    z-index:9999;
   }
 
-  .logo{
-    font-size:0;
-    text-align:center;
-    margin-bottom:25px;
-  }
-
-  .logo::after{
-    content:'EQ';
-    font-size:26px;
-    font-weight:800;
-    color:#22c55e;
-  }
-
-  .sidebar-menu{
-    gap:10px;
-  }
-
-  .sidebar-menu a{
-    font-size:0;
-    justify-content:center;
-    padding:14px 10px;
-    border-radius:16px;
-  }
-
-  .sidebar-menu a i{
-    font-size:20px;
-  }
+  /* FULL WIDTH CONTENT */
 
   .main{
-    margin-left:78px;
+    margin-left:0;
+    width:100%;
   }
 
   .topbar{
-    padding:0 12px;
+    padding:0 15px;
   }
 
   .search-box{
@@ -342,37 +319,40 @@ body{
   }
 
   .hero-card{
-    padding:25px 20px;
-    border-radius:24px;
+    width:100%;
+    padding:30px 22px;
+    border-radius:25px;
   }
 
   .hero-card h1{
-    font-size:28px;
-    line-height:1.3;
+    font-size:34px;
+    line-height:1.2;
   }
 
   .hero-card p{
-    font-size:14px;
-    line-height:1.7;
+    font-size:15px;
+    line-height:1.8;
   }
 
   .hero-btn{
     width:100%;
-    padding:14px;
+    padding:15px;
   }
 
   .stats{
+    grid-template-columns:1fr;
     padding:0 15px 20px;
   }
 
   .cards{
+    grid-template-columns:1fr;
     padding:0 15px 25px;
   }
 
   .card{
-    padding:24px;
+    width:100%;
   }
-}
+  }
 </style>
 </head>
 
@@ -585,7 +565,7 @@ body{
             Join Now
           </button>
         </a>
-        <a href="https://wa.me/256775148084?text=Hello%20coach%20am%20interested%20in%20Stategain%20%20Connections%20please%20link%20me%20up"
+        <a href="https://wa.me/256775148084?text=Hello%20coach%20am%20interested%20in%20EarnQash%20Connections%20please%20link%20me%20up"
    class="floating-btn">
    <i class="fa-brands fa-whatsapp"></i>
         </a>
